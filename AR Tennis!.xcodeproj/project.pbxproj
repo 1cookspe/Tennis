@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0E354120ED5BFA00F5E454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E354020ED5BFA00F5E454 /* AppDelegate.swift */; };
+		FE0E354320ED5BFA00F5E454 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0E354220ED5BFA00F5E454 /* art.scnassets */; };
+		FE0E354520ED5BFA00F5E454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E354420ED5BFA00F5E454 /* ViewController.swift */; };
+		FE0E354820ED5BFA00F5E454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E354620ED5BFA00F5E454 /* Main.storyboard */; };
+		FE0E354A20ED5BFB00F5E454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0E354920ED5BFB00F5E454 /* Assets.xcassets */; };
+		FE0E354D20ED5BFB00F5E454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E354B20ED5BFB00F5E454 /* LaunchScreen.storyboard */; };
+		FE0E355820ED5BFB00F5E454 /* AR_Tennis_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E355720ED5BFB00F5E454 /* AR_Tennis_Tests.swift */; };
+		FE0E356320ED5BFB00F5E454 /* AR_Tennis_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E356220ED5BFB00F5E454 /* AR_Tennis_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0E355420ED5BFB00F5E454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0E353520ED5BFA00F5E454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0E353C20ED5BFA00F5E454;
+			remoteInfo = "AR Tennis!";
+		};
+		FE0E355F20ED5BFB00F5E454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0E353520ED5BFA00F5E454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0E353C20ED5BFA00F5E454;
+			remoteInfo = "AR Tennis!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0E353D20ED5BFA00F5E454 /* AR Tennis!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Tennis!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0E354020ED5BFA00F5E454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0E354220ED5BFA00F5E454 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FE0E354420ED5BFA00F5E454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0E354720ED5BFA00F5E454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0E354920ED5BFB00F5E454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0E354C20ED5BFB00F5E454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0E354E20ED5BFB00F5E454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0E355320ED5BFB00F5E454 /* AR Tennis!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Tennis!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0E355720ED5BFB00F5E454 /* AR_Tennis_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Tennis_Tests.swift; sourceTree = "<group>"; };
+		FE0E355920ED5BFB00F5E454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0E355E20ED5BFB00F5E454 /* AR Tennis!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Tennis!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0E356220ED5BFB00F5E454 /* AR_Tennis_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Tennis_UITests.swift; sourceTree = "<group>"; };
+		FE0E356420ED5BFB00F5E454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0E353A20ED5BFA00F5E454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E355020ED5BFB00F5E454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E355B20ED5BFB00F5E454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0E353420ED5BFA00F5E454 = {
+			isa = PBXGroup;
+			children = (
+				FE0E353F20ED5BFA00F5E454 /* AR Tennis! */,
+				FE0E355620ED5BFB00F5E454 /* AR Tennis!Tests */,
+				FE0E356120ED5BFB00F5E454 /* AR Tennis!UITests */,
+				FE0E353E20ED5BFA00F5E454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0E353E20ED5BFA00F5E454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E353D20ED5BFA00F5E454 /* AR Tennis!.app */,
+				FE0E355320ED5BFB00F5E454 /* AR Tennis!Tests.xctest */,
+				FE0E355E20ED5BFB00F5E454 /* AR Tennis!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0E353F20ED5BFA00F5E454 /* AR Tennis! */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E354020ED5BFA00F5E454 /* AppDelegate.swift */,
+				FE0E354220ED5BFA00F5E454 /* art.scnassets */,
+				FE0E354420ED5BFA00F5E454 /* ViewController.swift */,
+				FE0E354620ED5BFA00F5E454 /* Main.storyboard */,
+				FE0E354920ED5BFB00F5E454 /* Assets.xcassets */,
+				FE0E354B20ED5BFB00F5E454 /* LaunchScreen.storyboard */,
+				FE0E354E20ED5BFB00F5E454 /* Info.plist */,
+			);
+			path = "AR Tennis!";
+			sourceTree = "<group>";
+		};
+		FE0E355620ED5BFB00F5E454 /* AR Tennis!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E355720ED5BFB00F5E454 /* AR_Tennis_Tests.swift */,
+				FE0E355920ED5BFB00F5E454 /* Info.plist */,
+			);
+			path = "AR Tennis!Tests";
+			sourceTree = "<group>";
+		};
+		FE0E356120ED5BFB00F5E454 /* AR Tennis!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E356220ED5BFB00F5E454 /* AR_Tennis_UITests.swift */,
+				FE0E356420ED5BFB00F5E454 /* Info.plist */,
+			);
+			path = "AR Tennis!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0E353C20ED5BFA00F5E454 /* AR Tennis! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0E356720ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!" */;
+			buildPhases = (
+				FE0E353920ED5BFA00F5E454 /* Sources */,
+				FE0E353A20ED5BFA00F5E454 /* Frameworks */,
+				FE0E353B20ED5BFA00F5E454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Tennis!";
+			productName = "AR Tennis!";
+			productReference = FE0E353D20ED5BFA00F5E454 /* AR Tennis!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0E355220ED5BFB00F5E454 /* AR Tennis!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0E356A20ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!Tests" */;
+			buildPhases = (
+				FE0E354F20ED5BFB00F5E454 /* Sources */,
+				FE0E355020ED5BFB00F5E454 /* Frameworks */,
+				FE0E355120ED5BFB00F5E454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0E355520ED5BFB00F5E454 /* PBXTargetDependency */,
+			);
+			name = "AR Tennis!Tests";
+			productName = "AR Tennis!Tests";
+			productReference = FE0E355320ED5BFB00F5E454 /* AR Tennis!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0E355D20ED5BFB00F5E454 /* AR Tennis!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0E356D20ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!UITests" */;
+			buildPhases = (
+				FE0E355A20ED5BFB00F5E454 /* Sources */,
+				FE0E355B20ED5BFB00F5E454 /* Frameworks */,
+				FE0E355C20ED5BFB00F5E454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0E356020ED5BFB00F5E454 /* PBXTargetDependency */,
+			);
+			name = "AR Tennis!UITests";
+			productName = "AR Tennis!UITests";
+			productReference = FE0E355E20ED5BFB00F5E454 /* AR Tennis!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0E353520ED5BFA00F5E454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Spencer Cook";
+				TargetAttributes = {
+					FE0E353C20ED5BFA00F5E454 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FE0E355220ED5BFB00F5E454 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE0E353C20ED5BFA00F5E454;
+					};
+					FE0E355D20ED5BFB00F5E454 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE0E353C20ED5BFA00F5E454;
+					};
+				};
+			};
+			buildConfigurationList = FE0E353820ED5BFA00F5E454 /* Build configuration list for PBXProject "AR Tennis!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0E353420ED5BFA00F5E454;
+			productRefGroup = FE0E353E20ED5BFA00F5E454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0E353C20ED5BFA00F5E454 /* AR Tennis! */,
+				FE0E355220ED5BFB00F5E454 /* AR Tennis!Tests */,
+				FE0E355D20ED5BFB00F5E454 /* AR Tennis!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0E353B20ED5BFA00F5E454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0E354320ED5BFA00F5E454 /* art.scnassets in Resources */,
+				FE0E354D20ED5BFB00F5E454 /* LaunchScreen.storyboard in Resources */,
+				FE0E354A20ED5BFB00F5E454 /* Assets.xcassets in Resources */,
+				FE0E354820ED5BFA00F5E454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E355120ED5BFB00F5E454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E355C20ED5BFB00F5E454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0E353920ED5BFA00F5E454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0E354520ED5BFA00F5E454 /* ViewController.swift in Sources */,
+				FE0E354120ED5BFA00F5E454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E354F20ED5BFB00F5E454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0E355820ED5BFB00F5E454 /* AR_Tennis_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0E355A20ED5BFB00F5E454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0E356320ED5BFB00F5E454 /* AR_Tennis_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0E355520ED5BFB00F5E454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0E353C20ED5BFA00F5E454 /* AR Tennis! */;
+			targetProxy = FE0E355420ED5BFB00F5E454 /* PBXContainerItemProxy */;
+		};
+		FE0E356020ED5BFB00F5E454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0E353C20ED5BFA00F5E454 /* AR Tennis! */;
+			targetProxy = FE0E355F20ED5BFB00F5E454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0E354620ED5BFA00F5E454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0E354720ED5BFA00F5E454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0E354B20ED5BFB00F5E454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0E354C20ED5BFB00F5E454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0E356520ED5BFB00F5E454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE0E356620ED5BFB00F5E454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0E356820ED5BFB00F5E454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0E356920ED5BFB00F5E454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE0E356B20ED5BFB00F5E454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Tennis!.app/AR Tennis!";
+			};
+			name = Debug;
+		};
+		FE0E356C20ED5BFB00F5E454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Tennis!.app/AR Tennis!";
+			};
+			name = Release;
+		};
+		FE0E356E20ED5BFB00F5E454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Tennis!";
+			};
+			name = Debug;
+		};
+		FE0E356F20ED5BFB00F5E454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ6X586J9Z;
+				INFOPLIST_FILE = "AR Tennis!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "spencercook.AR-Tennis-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Tennis!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0E353820ED5BFA00F5E454 /* Build configuration list for PBXProject "AR Tennis!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0E356520ED5BFB00F5E454 /* Debug */,
+				FE0E356620ED5BFB00F5E454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0E356720ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0E356820ED5BFB00F5E454 /* Debug */,
+				FE0E356920ED5BFB00F5E454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0E356A20ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0E356B20ED5BFB00F5E454 /* Debug */,
+				FE0E356C20ED5BFB00F5E454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0E356D20ED5BFB00F5E454 /* Build configuration list for PBXNativeTarget "AR Tennis!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0E356E20ED5BFB00F5E454 /* Debug */,
+				FE0E356F20ED5BFB00F5E454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0E353520ED5BFA00F5E454 /* Project object */;
+}
