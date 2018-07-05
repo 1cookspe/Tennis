@@ -35,6 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
+        configuration.planeDetection = .horizontal
 
         // Run the view's session
         sceneView.session.run(configuration)
@@ -54,14 +55,42 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     // MARK: - ARSCNViewDelegate
     
-/*
+
     // Override to create and configure nodes for anchors added to the view's session.
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
-     
+        print("Found new anchor1")
+        var node: SCNNode?
+        
+        // add node to new determined scene
+        if let planeAnchor = anchor as? ARPlaneAnchor {
+            //node = self.sceneView.scene.rootNode.childNode(withName: "shipMesh", recursively: true)!
+            node = SCNNode()
+            
+            // court
+            let courtPlane = SCNPlane(width: 8.23, height: 23.78)
+            courtPlane.firstMaterial?.diffuse.contents = UIColor.blue
+            let courtNode = SCNNode(geometry: courtPlane)
+            courtNode.position = SCNVector3(x: planeAnchor.center.x, y: 0, z: planeAnchor.center.z)
+            courtNode.scale = SCNVector3(0.1,0.1,0.1)
+            courtNode.eulerAngles.x = -.pi/2
+            
+            // net
+            let netPlane = SCNPlane(width: courtPlane.width, height: 1.08)
+            netPlane.firstMaterial?.diffuse.contents = UIColor.white
+            let netNode = SCNNode(geometry: netPlane)
+            netNode.position = SCNVector3(x: planeAnchor.center.x, y: 0, z: planeAnchor.center.z)
+            netNode.scale = SCNVector3(0.1,0.1,0.1)
+            
+            //courtNode.addChildNode(netNode)
+            node?.addChildNode(courtNode)
+            node?.addChildNode(netNode)
+            node?.scale = SCNVector3(0.1,0.1,0.1)
+            
+        }
+        
         return node
     }
-*/
+
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
